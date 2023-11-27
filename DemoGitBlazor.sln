@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGitBlazor", "DemoGitBlazor\DemoGitBlazor.csproj", "{B3021A9B-2218-40B6-A164-839EA7D1BDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGitBlazor.Client", "DemoGitBlazor.Client\DemoGitBlazor.Client.csproj", "{4C83E2BD-66FE-49F3-8737-8277E6EEB10C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3021A9B-2218-40B6-A164-839EA7D1BDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3021A9B-2218-40B6-A164-839EA7D1BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3021A9B-2218-40B6-A164-839EA7D1BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3021A9B-2218-40B6-A164-839EA7D1BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C83E2BD-66FE-49F3-8737-8277E6EEB10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C83E2BD-66FE-49F3-8737-8277E6EEB10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C83E2BD-66FE-49F3-8737-8277E6EEB10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C83E2BD-66FE-49F3-8737-8277E6EEB10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA5391F-F6C2-4248-A407-536D577878CA}
+	EndGlobalSection
+EndGlobal
