@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Components.Forms;
+@using Microsoft.AspNetCore.Components;
+
+<h3>Dettaglio</h3>
+
+@typeparam TItem 
+
+
+<EditForm Model="@Item" 
+	OnValidSubmit="@( () => OnSalva.InvokeAsync(Item))">
+
+	<DataAnnotationsValidator/>
+
+	@if(Item != null && FormFields != null)
+	{
+		@FormFields(Item)
+	}
+
+
+	<div style="margin-top:10px">
+		<button type="submit" class="btn btn-info">Salva</button>
+		<button type="button" class="btn btn-info" @onclick="() => OnAnnulla.InvokeAsync()">Annulla</button>
+	</div>
+
+	
+
+</EditForm>
+
+@code {
+	[Parameter] public TItem? Item { get; set; } 
+	[Parameter] public EventCallback OnAnnulla { get; set; }
+	[Parameter] public EventCallback<TItem> OnSalva { get; set; }
+	[Parameter] public RenderFragment<TItem>? FormFields { get; set; }
+}
